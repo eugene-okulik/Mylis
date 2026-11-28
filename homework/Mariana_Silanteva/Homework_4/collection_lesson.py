@@ -1,9 +1,16 @@
 my_dict = {
     'tuple': (1, 'text', True, 3.6, 9),
     'list': [1, 5, 'example', False, 9.3],
-    'dict': {'country': 'USA', 'capital': 'Washington', 'language': 'english', 'currency': 'USD', 'has_mountains': True},
+    'dict': {
+        'country': 'USA',
+        'capital': 'Washington',
+        'language': 'english',
+        'currency': 'USD',
+        'has_mountains': True
+    },
     'set': {3, 6, 'news', True, 2.7}
 }
+
 print(my_dict['tuple'][-1])
 
 my_dict['list'].append('new_text')
